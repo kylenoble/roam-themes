@@ -208,7 +208,7 @@ textarea, a {
 .sidebar-content > * {
     margin: 0px 0px 0 20px !important;
     overflow-x: visible;
-    /*overflow-y: auto !important;*/
+    overflow-y: auto !important;
     max-height: 100vh;
     padding: 50px 0px 100px 0px;
     
@@ -244,7 +244,10 @@ textarea, a {
 }
 
 .sidebar-content > *:not(.rm-dnd-separator) > div:not(.rm-dnd-separator) > div:first-child:not(:last-child) {
-    min-width: var(--page-width);
+    flex-direction: row !important;
+    width: 90% !important;
+    margin: 0 16px !important;
+    padding: 16px 0 !important;
 }
 
 .sidebar-content > * > div[style*="margin-left:"][style*="margin-right:"] {
@@ -1532,3 +1535,4 @@ code {
 .rm-find-or-create-wrapper .bp3-transition-container {
     transform: none !important;
 }
+
