@@ -159,3 +159,37 @@ span.cm-error {
     margin-left: 0 !important;
   }
 }
+
+@media only screen and (max-width: 767px) {
+  .roam-body .roam-app .roam-main {
+    max-width: 97vw !important;
+  }
+
+  .rm-files-dropzone {
+    z-index: 9999;
+  }
+
+  .rm-topbar {
+    width: 200px;
+    padding-left: 20px;
+    background: black;
+    border-radius: 0 0 8px 0;
+    justify-content: space-evenly;
+  }
+
+  .rm-find-or-create-wrapper {
+    flex: 0 1 30px !important;
+  }
+
+  #find-or-create-input {
+    padding: 0;
+  }
+
+  #find-or-create-input:focus {
+    padding: 20px;
+  }
+
+  .bp3-icon-calendar {
+    margin-left: 0 !important;
+  }
+}
