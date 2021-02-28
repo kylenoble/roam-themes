@@ -119,3 +119,7 @@ span.cm-error {
   outline: 1px solid grey !important;
   color: white !important;
 }
+
+.rm-topbar {
+  background: black;
+}

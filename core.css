@@ -1926,7 +1926,6 @@ code {
     .rm-topbar {
         width: 200px;
         padding-left: 20px;
-        background: black;
         border-radius: 0 0 8px 0;
         justify-content: space-evenly;
     }
